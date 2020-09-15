@@ -1,0 +1,44 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Security": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "Serilog": {
+    "MinimumLevel": "Information"
+  },
+  "Messaging": {
+    "ApiVersion": "1.0",
+    "Compression": "LZ4",
+    "Encryption": "Curve25519",
+    "ServiceName": "nautilus-exec"
+  },
+  "Network": {
+    "CommandReqPort": 55555,
+    "CommandResPort": 55556,
+    "EventPubPort": 55557,
+    "CommandsPerSecond": 100,
+    "NewOrdersPerSecond": 15
+  },
+  "Account": {
+    "Brokerage": "FXCM",
+    "Mode": "Demo",
+    "Currency": "USD",
+    "Name": "701452756",
+    "Login": "701452756",
+    "Password": "Ydt3r",
+    "ConnectJob": {
+      "Weekday": "Monday",
+      "Hour": 9,
+      "Minute": 0
+    },
+    "DisconnectJob": {
+      "Weekday": "Monday",
+      "Hour": 9,
+      "Minute": 0
+    }
+  }
+}
